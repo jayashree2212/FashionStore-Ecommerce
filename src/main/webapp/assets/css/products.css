@@ -1,0 +1,75 @@
+/* PAGE TITLE */
+h2 {
+    margin-top: 20px;
+    font-size: 26px;
+    color: #333;
+}
+
+/* MAIN PRODUCT CONTAINER */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+/* PRODUCT CARD */
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* HOVER EFFECT */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* PRODUCT IMAGE */
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* PRODUCT NAME */
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* PRICE */
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+/* VIEW BUTTON */
+.card button {
+    padding: 8px 14px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.card button:hover {
+    background: #4f46d6;
+}
+
+/* LINK RESET */
+.card a {
+    text-decoration: none;
+}
