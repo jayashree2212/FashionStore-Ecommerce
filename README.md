@@ -15,16 +15,16 @@ Project developed by Jayashree Sheelvant.
 ## Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ### Login Page
-![Login](screenshots/login.png)
+![Login](Screenshots/login.png)
 
 ### Registration Page
-![Register](screenshots/register.png)
+![Register](Screenshots/register.png)
 
 ### Product Page
-![Products](screenshots/products.png)
+![Products](Screenshots/products.png)
 
 ### Shopping Cart
-![Cart](screenshots/cart.png)
+![Cart](Screenshots/cart.png)
